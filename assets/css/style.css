@@ -1,0 +1,24 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,600;1,300&display=swap');
+
+/* Style rules for body */
+body {font-family: 'Roboto Condensed', sans-serif;
+color: rgba(59, 32, 46, 0.86)
+
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    display: flex;
+}
+
+#social-networks i {
+    color: #3b202edb;
+    font-size: 200%;
+    padding: 1em;
+}
