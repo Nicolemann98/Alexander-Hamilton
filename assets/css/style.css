@@ -3,10 +3,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,600;1,300&display=swap');
 
 /* Style rules for body */
-body {font-family: 'Roboto Condensed', sans-serif;
-color: rgba(59, 32, 46, 0.86)
-
+header {
+    background-color: ;
+    margin: 20px;
 }
+body {font-family: 'Roboto Condensed', sans-serif;
+color: rgba(59, 32, 46, 0.86);
+margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(59, 32, 46, 0.86);
+
+#timeline {
+    background url:("assets/images/flag-background.jpg");
+}
+    /* To push timeline content to the left */
+        .left {
+            left: 0;
+        }
+    
+        /* To push timeline content to the left */
+        .right {
+            left: 50%;
+        }
 
 /* Footer */
 #social-networks {
@@ -21,4 +46,5 @@ color: rgba(59, 32, 46, 0.86)
     color: #3b202edb;
     font-size: 200%;
     padding: 1em;
+
 }
