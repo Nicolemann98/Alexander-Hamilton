@@ -27,25 +27,52 @@ h3 {
     letter-spacing: 2px;
     color: rgba(59, 32, 46, 0.86);
 }
-nav>menu {
-    display: none;
-    top: 100%; 
+#menu {
+    font-size: 120%;
+    list-style-type: none;
 }
 
 
 #menu>li {
     margin-bottom: 1em;
 }
+
 #bio {
 
 }
 header {
-    background-color: lightgreen;
+    background-color: lightgray;
     padding: 0 2rem;
     position: fixed;
     z-index: 90;
     width: 100%;
     box-shadow: 0 3px 3px #3b202edb;
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+}
+header a {
+    text-decoration: none;
+}
+/* Navbar toggle */
+nav {
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    left: 0;
+    padding: 0 2rem;
+    box-shadow: 0 3px 3px #3b202edb;
+    display: none;  
+    top: 100%;
+}
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2em;
 }
 /* Main Content */
 main {
