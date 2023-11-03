@@ -17,6 +17,7 @@ margin: 20px;
 min-height: 100vh; 
 flex-direction: column;
 display: flex; 
+background-color: lightgray;
 }
 
 h1,
@@ -27,33 +28,30 @@ h3 {
     letter-spacing: 2px;
     color: rgba(59, 32, 46, 0.86);
 }
+header {
+    background-color: lightgray;
+    padding: 0 2rem;
+    position: relative;
+    z-index: 90;
+    width: 100%;
+    box-shadow: 0 3px 3px #3b202edb;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+}
 #menu {
     font-size: 120%;
     list-style-type: none;
 }
 
-
 #menu>li {
     margin-bottom: 1em;
 }
 
-#bio {
-
-}
-header {
-    background-color: lightgray;
-    padding: 0 2rem;
-    position: fixed;
-    z-index: 90;
-    width: 100%;
-    box-shadow: 0 3px 3px #3b202edb;
-    display: flex; 
-    justify-content: space-between;
-    align-items: baseline;
-}
-header a {
-    text-decoration: none;
-}
 /* Navbar toggle */
 nav {
     position: absolute;
@@ -72,44 +70,131 @@ nav {
     display: none;
 }
 .nav-toggle-label {
-    font-size: 2em;
+    font-size: 2rem;
 }
 /* Main Content */
 main {
-    background: url("assets/images/flag-background.jpg") no-repeat center center/cover;
     position: relative;
     flex-direction: column; 
     flex: 1 0 auto;
-    margin-top: 80px;
-    }
-
-    /* To push timeline content to the left */
-        .left {
-            left: 0;
-        }
-        .content-l{
-            left: 0;
-        }
-        /* To push timeline content to the right */
-        .right {
-            left: 50%;
-        }
-        .content-r {
-            left: 50%;
-        }
+    margin-top: 47px;
+    width: 100%;
+    margin: 10px;
+    padding: 6px;
+}
     
+#bio {
+    position: relative;
+ 
+
+}
+
+#timeline {
+    height: 400px;
+    max-width: 1200px;
+    background: url("assets/images/flag-background.jpg") no-repeat center center/cover;
+    position: relative;
+    margin: 0 auto;
+}
+/* The vertical line for the timeline */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #3a3a3a;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    margin-left: -20px;
+}
+
 
 /* Footer */
 #social-networks {
     text-align: center;
     list-style-type: none;
-    justify-content: space-evenly;
-    padding: 25px 0;
     display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 100%;
 }
 
 #social-networks i {
     color: #3b202edb;
     font-size: 200%;
-    padding: 1em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    text-decoration: none;
+    }
+
+#social-networks a {
+    text-decoration: none;
+}
+/* Form */
+#competition {
+    background-image: url("../images/competition.jpg");
+    background-size: cover;
+    background-position: 75%;
+    height: 100%;
+}
+#radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.competition {
+color: #ffffff;
+    background-color: rgba(100, 109, 109, 0.6);
+        padding: 30px;
+    }
+    .submit-button {
+        margin-top: 20px;
+            border-radius: 2px;
+            padding: 15px 32px;
+            font-size: 100%;
+            background-color: #3b202edb;
+            color: #ffffff;
+    }
+/* To push timeline content to the left */
+.left {
+    left: 0;
+}
+
+.content-l {
+    left: 0;
+}
+
+/* To push timeline content to the right */
+.right {
+    left: 50%;
+}
+
+.content-r {
+    left: 50%;
+}
+/* Media query for tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #3b202edb
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #3b202edb
+    }
 }

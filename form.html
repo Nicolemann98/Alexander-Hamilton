@@ -35,7 +35,6 @@
             <i class="fa-solid fa-bars-staggered"></i>
         </label>
         <nav>
-
             <!-- Responsive dropdown menu-->
             <ul id="menu">
                 <li><a href="index.html"> Life </a></li>
@@ -44,42 +43,43 @@
             </ul>
         </nav>
     </header>
+
     <!-- Main content -->
     <main>
         <section id="competition">
-            <form id="competition" method="POST" action="https://formdump.codeinstitute.net">
+            <form class="competition" method="POST" action="https://formdump.codeinstitute.net">
             <h2> <i class="fa-solid fa-flag-usa"></i> Win a trip to Washington DC for you and a friend! </h2>
-            <label for="first_name"> Your full name</label>
+            <br>
+            <label for="full_name"> Your full name </label>
             <input type="text" name="your_name" id="your_name" class="text-input" required>
             <br>
             <label for="email_address"> Email Address </label>
             <input type="email" name="email_address" id="email_address" class="text-input" required>
             <br>
             <h3> When did the American Revolution end? </h3>
-            <div class="radio-buttons">
-                <div>
-            <label for="1781"> 1781 </label>
-            <input type="radio" name="answer-1" id="answer-1" value="1781" required checked>
+            <br>
+        <div class="radio-buttons">
+                    <label for="1781">1781</label>
+                    <input type="radio" name="answer" id="answer-1" value="1781" required>
                 </div>
-                <div>
-                    <label for="1783"> 1783 </label>
-                    <input type="radio" name="answer-2" id="answer-2" value="1783" required>
+        <div class="radio-buttons">
+                    <label for="1783">1783</label>
+                    <input type="radio" name="answer" id="answer-2" value="1783" required>
                 </div>
-                <div>
-                    <label for="1784"> 1784 </label>
-                    <input type="radio" name="answer-3" id="answer-3" value="1784" required>
+        <div class="radio-buttons">
+                    <label for="1784">1784</label>
+                    <input type="radio" name="answer" id="answer-3" value="1784" required>
                 </div>
-                <button type="submit" class="submit-button"> Submit </button>
-                </form>
-            </div>
-
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
         </section>
 
     </main>
     <!-- Footer-->
     <footer>
-        <li>
             <ul id="social-networks">
+        <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Check out our Facebook (opens in new tab)">
                     <i class="fa-brands fa-square-facebook"></i></a>
