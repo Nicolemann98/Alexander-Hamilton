@@ -80,6 +80,7 @@ main {
     position: relative;
     flex-direction: column; 
     flex: 1 0 auto;
+    margin-top: 80px;
     }
 
     /* To push timeline content to the left */
