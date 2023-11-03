@@ -2,14 +2,21 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,600;1,300&display=swap');
 
-/* Style rules for body */
-header {
-    background-color: ;
-    margin: 20px;
+/* Wildcard selector to override default browser styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+/* Style rules for body */
+
 body {font-family: 'Roboto Condensed', sans-serif;
 color: rgba(59, 32, 46, 0.86);
 margin: 20px;
+min-height: 100vh; 
+flex-direction: column;
+display: flex; 
 }
 
 h1,
@@ -19,19 +26,50 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgba(59, 32, 46, 0.86);
-
-#timeline {
-    background url:("assets/images/flag-background.jpg");
 }
+nav>menu {
+    display: none;
+    top: 100%; 
+}
+
+
+#menu>li {
+    margin-bottom: 1em;
+}
+#bio {
+
+}
+header {
+    background-color: lightgreen;
+    padding: 0 2rem;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    box-shadow: 0 3px 3px #3b202edb;
+}
+/* Main Content */
+main {
+    background: url("assets/images/flag-background.jpg") no-repeat center center/cover;
+    position: relative;
+    flex-direction: column; 
+    flex: 1 0 auto;
+    }
+
     /* To push timeline content to the left */
         .left {
             left: 0;
         }
-    
-        /* To push timeline content to the left */
+        .content-l{
+            left: 0;
+        }
+        /* To push timeline content to the right */
         .right {
             left: 50%;
         }
+        .content-r {
+            left: 50%;
+        }
+    
 
 /* Footer */
 #social-networks {
@@ -46,5 +84,4 @@ h3 {
     color: #3b202edb;
     font-size: 200%;
     padding: 1em;
-
 }
