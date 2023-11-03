@@ -144,6 +144,17 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+#legacy {
+background: url("assets/images/stage.webp") no-repeat top center/cover;
+background: url("assets/images/hamilton-musical.jpeg") no-repeat top center/cover;
+background: url("assets/images/statue.jpg") no-repeat top center/cover;
+}
+img {
+    height: 30vw;
+    width: 30vw;
+    margin: 10px;
+    justify-content: space-between;
+}
 .competition {
 color: #ffffff;
     background-color: rgba(100, 109, 109, 0.6);
