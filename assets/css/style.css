@@ -152,60 +152,40 @@ background: url("assets/images/statue.jpg") no-repeat top center/cover;
 img {
     height: 30vw;
     width: 30vw;
-    margin: 10px;
     justify-content: space-between;
 }
+.duel img {
+    width:50vw;
+    height: 50vw;
+    padding: 50%;
+}
+
 .competition {
 color: #ffffff;
     background-color: rgba(100, 109, 109, 0.6);
-        padding: 30px;
+    padding: 30px;
+}
+.submit-button {
+    margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px;
+        font-size: 100%;
+        background-color: #3b202edb;
+        color: #ffffff;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    .image {
+        column-count: 3;
+        column-gap: 0;
     }
-    .submit-button {
-        margin-top: 20px;
-            border-radius: 2px;
-            padding: 15px 32px;
-            font-size: 100%;
-            background-color: #3b202edb;
-            color: #ffffff;
-    }
-/* To push timeline content to the left */
-.left {
-    left: 0;
 }
 
-.content-l {
-    left: 0;
-}
-
-/* To push timeline content to the right */
-.right {
-    left: 50%;
-}
-
-.content-r {
-    left: 50%;
-}
-/* Media query for tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-    /* Form */
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #3b202edb
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #3b202edb
-    }
+.image {
+    text-align: center;
+}
+    
 }

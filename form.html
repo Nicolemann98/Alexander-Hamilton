@@ -47,10 +47,10 @@
     <!-- Main content -->
     <main>
         <section id="competition">
-            <form class="competition" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="competition_form" class="competition" method="POST" action="https://formdump.codeinstitute.net">
             <h2> <i class="fa-solid fa-flag-usa"></i> Win a trip to Washington DC for you and a friend! </h2>
             <br>
-            <label for="full_name"> Your full name </label>
+            <label for="your_name"> Your full name </label>
             <input type="text" name="your_name" id="your_name" class="text-input" required>
             <br>
             <label for="email_address"> Email Address </label>
@@ -58,23 +58,20 @@
             <br>
             <h3> When did the American Revolution end? </h3>
             <br>
-        <div class="radio-buttons">
-                    <label for="1781">1781</label>
-                    <input type="radio" name="answer" id="answer-1" value="1781" required>
-                </div>
-        <div class="radio-buttons">
-                    <label for="1783">1783</label>
-                    <input type="radio" name="answer" id="answer-2" value="1783" required>
-                </div>
-        <div class="radio-buttons">
-                    <label for="1784">1784</label>
-                    <input type="radio" name="answer" id="answer-3" value="1784" required>
-                </div>
-                <button type="submit" class="submit-button">Submit</button>
-            </form>
-        </div>
+            <div class="radio-buttons">
+                <label for="answer-1">1781</label>
+                <input type="radio" name="answer" id="answer-1" value="1781" required>
+            </div>
+            <div class="radio-buttons">
+                <label for="answer-2">1783</label>
+                <input type="radio" name="answer" id="answer-2" value="1783" required>
+            </div>
+            <div class="radio-buttons">
+                <label for="answer-3">1784</label>
+                <input type="radio" name="answer" id="answer-3" value="1784" required>
+            </div>
+        </form>
         </section>
-
     </main>
     <!-- Footer-->
     <footer>
