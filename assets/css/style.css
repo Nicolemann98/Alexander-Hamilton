@@ -139,11 +139,7 @@ main {
     background-position: 75%;
     height: 100%;
 }
-#radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
+
 #legacy {
 background: url("assets/images/stage.webp") no-repeat top center/cover;
 background: url("assets/images/hamilton-musical.jpeg") no-repeat top center/cover;
@@ -164,6 +160,11 @@ img {
 color: #ffffff;
     background-color: rgba(100, 109, 109, 0.6);
     padding: 30px;
+}
+#radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .submit-button {
     margin-top: 20px;
@@ -186,6 +187,12 @@ color: #ffffff;
 @media screen and (min-width: 768px) {
 .image {
     text-align: center;
+    column-count: 3;
+}   
 }
-    
-}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .image {
+        text-align: center;
+        column-count: 3;
+    }
