@@ -8,7 +8,7 @@ Users of this website will be able to read about his life, career and his legacy
 
 ## Features
 
-*Navigation
+### Navigation
 
     *At the top of the page, there is the name of the site as a logo, clicking this will navigate the user back to the page about his life and career.
     *Other navigation links can be found to the right of the h1 logo within a dropdown toggle, these include the pages about his legacy and the competition page.
@@ -19,30 +19,30 @@ Users of this website will be able to read about his life, career and his legacy
 ![Screenshot of the navigation bar](assets/images/nav-bar.png)
 ![Screenshot of dropdown menu](assets/images/nav-bar-dropdown.png)
 
-*The Header
+### The Header
 
     *The header encapsulates the nav element to make the dropdown menu responsive
     *The header also links each dropdown option to its own html page.
 
-*The 'His Life' section
+### The 'His Life' section
 
-    *This section adds images to give some insight into his life, this is then followed by the career section, which provides context and gives information about how he became such an important figure in American politics.
+   *This section adds images to give some insight into his life, this is then followed by the career section, which provides context and gives information about how he became such an important figure in American politics.
 
 ![screenshot of the page about his life](assets/images/his-life.png)
 
-*The timeline
+### The timeline
 
     *This section adds insight to important events in Hamilton's life
     *This is then followed by more images at the bottom of the page, also with alt attributes for visually impaired users.
 
-*The Legacy Page
+### The Legacy Page
 
     *This page adds insight into how his legacy is still celebtated to this day, including some references to  a biography that was written by a historian and the world-renowned musical 'Hamilton'
     *This page also has images along the bottom of the page to illustrate how he is still celebrated
 
-! [screenshot of the legacy page](assets/images/legacy-page.png)
+![screenshot of the legacy page](assets/images/legacy-page.png)
 
-*The Competition Page
+### The Competition Page
 
     *This page includes a form where users can enter a competition to win a trip to Washington DC
     *This requires users to input their full name and email address in order to enter, followed by selecting an option from multiple choice radio buttons
@@ -50,7 +50,7 @@ Users of this website will be able to read about his life, career and his legacy
 
 ![screenshot of the competition page](assets/images/competition.png)
 
-*The Footer section
+### The Footer section
 
     *The footer contains links to popular social media sites, which would allow other sites and pages to be linked to the page to add further information
     *Each icon is clickable and they are spaced evenly across the footer, and are a colour which follows the colour scheme of the site and is easy to see against the background.
@@ -82,7 +82,7 @@ Users of this website will be able to read about his life, career and his legacy
     *I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
     *I ran the code through lighthouse in devtools
   
-! [devtools lighthouse rating](assets/images/accessibility.png)
+![devtools lighthouse rating](assets/images/accessibility.png)
 
 ### Unfixed bugs
 
