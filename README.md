@@ -16,8 +16,8 @@ Users of this website will be able to read about his life, career and his legacy
     *The font contrasts the background colour so is easy to read
     *Each image has an alt text value in case they don't load in a browser and to make them more accessible to visually impaired users
 
-![Screenshot of the navigation bar] (assets/images/nav-bar.png)
-![Screenshot of dropdown menu] (assets/images/nav-bar-dropdown.png)
+![Screenshot of the navigation bar](assets/images/nav-bar.png)
+![Screenshot of dropdown menu](assets/images/nav-bar-dropdown.png)
 
 *The Header
 
@@ -28,7 +28,7 @@ Users of this website will be able to read about his life, career and his legacy
 
     *This section adds images to give some insight into his life, this is then followed by the career section, which provides context and gives information about how he became such an important figure in American politics.
 
-![screenshot of the page about his life] (assets/images/his-life.png)
+![screenshot of the page about his life](assets/images/his-life.png)
 
 *The timeline
 
@@ -40,7 +40,7 @@ Users of this website will be able to read about his life, career and his legacy
     *This page adds insight into how his legacy is still celebtated to this day, including some references to  a biography that was written by a historian and the world-renowned musical 'Hamilton'
     *This page also has images along the bottom of the page to illustrate how he is still celebrated
 
-! [screenshot of the legacy page] (assets/images/legacy-page.png)
+! [screenshot of the legacy page](assets/images/legacy-page.png)
 
 *The Competition Page
 
@@ -48,7 +48,7 @@ Users of this website will be able to read about his life, career and his legacy
     *This requires users to input their full name and email address in order to enter, followed by selecting an option from multiple choice radio buttons
     *Each field must be filled in, iuncluding with a valid email address, in order for the user to submit their entry
 
-![screenshot of the competition page] (assets/images/competition.png)
+![screenshot of the competition page](assets/images/competition.png)
 
 *The Footer section
 
@@ -82,7 +82,7 @@ Users of this website will be able to read about his life, career and his legacy
     *I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
     *I ran the code through lighthouse in devtools
   
-! [devtools lighthouse rating] (assets/images/accessibility.png)
+! [devtools lighthouse rating](assets/images/accessibility.png)
 
 ### Unfixed bugs
 
