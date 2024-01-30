@@ -91,6 +91,7 @@ No unfixed bugs found
 ## Deployment
 
 *   The site was deployed to GitHub pages by:
+  
     *   Going to the GitHub repository and accessing 'Settings'
     *   Selecting the 'Master Branch' in the source section dropdown
 
