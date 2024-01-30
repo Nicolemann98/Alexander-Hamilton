@@ -19,7 +19,7 @@ flex-direction: column;
 display: flex; 
 background-color: lightgray;
 }
-
+/* Font properties */
 h1,
 h2,
 h3 {
@@ -28,6 +28,7 @@ h3 {
     letter-spacing: 2px;
     color: rgba(59, 32, 46, 0.86);
 }
+/* Design rules for the header */
 header {
     background-color: lightgray;
     padding: 0 2rem;
@@ -43,6 +44,7 @@ header {
 header a {
     text-decoration: none;
 }
+/* Styling menu to improve UX */
 #menu {
     font-size: 120%;
     list-style-type: none;
@@ -88,7 +90,7 @@ main {
  
 
 }
-
+/* Timeline styled to run downwards on the page */
 #timeline {
     height: 400px;
     max-width: 1200px;
@@ -109,7 +111,7 @@ main {
 }
 
 
-/* Footer */
+/* Footer for social media sites */
 #social-networks {
     text-align: center;
     list-style-type: none;
@@ -132,14 +134,14 @@ main {
 #social-networks a {
     text-decoration: none;
 }
-/* Form */
+/* Form for the competition page */
 #competition {
     background-image: url("../images/competition.jpg");
     background-size: cover;
     background-position: 75%;
     height: 100%;
 }
-
+/* Background images for the legacy page */
 #legacy {
 background: url("assets/images/stage.webp") no-repeat top center/cover;
 background: url("assets/images/hamilton-musical.jpeg") no-repeat top center/cover;
@@ -156,16 +158,19 @@ img {
     padding: 50%;
 }
 
+/* Style rules for competition page */
 .competition {
 color: #ffffff;
     background-color: rgba(100, 109, 109, 0.6);
     padding: 30px;
 }
+/* Buttons to submit data for competition */
 #radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
+/* Button to submit data to enter competition */
 .submit-button {
     margin-top: 20px;
         border-radius: 2px;
