@@ -26,7 +26,7 @@ Users of this website will be able to read about his life, career and his legacy
 
 ### The 'His Life' section
 
-   *   This section adds images to give some insight into his life, this is then followed by the career section, which provides context and gives information about how he became such an important figure in American politics.
+* This section adds images to give some insight into his life, this is then followed by the career section, which provides context and gives information about how he became such an important figure in American politics.
 
 ![screenshot of the page about his life](assets/images/his-life.png)
 
@@ -57,30 +57,30 @@ Users of this website will be able to read about his life, career and his legacy
 
 ## Testing
 
-*   I confirmed that the site works within the IDE and when deployed onto the browser
+* I confirmed that the site works within the IDE and when deployed onto the browser
 
-*   I confirmed that the page is repsonsive and functions on different screen nsizes using DevTools device bar
+* I confirmed that the page is repsonsive and functions on different screen nsizes using DevTools device bar
 
-*   I checked that the text is readable across all pages, and that is would be easy for users to understand
+* I checked that the text is readable across all pages, and that is would be easy for users to understand
 
-*   I have confirmed that the form on the competition page works, by inputting data into each field, the email address field will only acceot a valid email address and you can't submit without filling in all the fields.
+* I have confirmed that the form on the competition page works, by inputting data into each field, the email address field will only acceot a valid email address and you can't submit without filling in all the fields.
 
 ## Bugs
 
-*   When I deployed my project to GitHub I noticed that there were some issues with the spacing, I amended this by adding the br element between each section
-*   I also noticed that the submit button was missing from the form, so I amended my code to ensure it could be seen on GitHub
+* When I deployed my project to GitHub I noticed that there were some issues with the spacing, I amended this by adding the br element between each section
+* I also noticed that the submit button was missing from the form, so I amended my code to ensure it could be seen on GitHub
 
 ## Validator Testing
 
-*   HTML
-    *   No errors were found in my html code after passing it through the W3C validator
+* HTML
+  * No errors were found in my html code after passing it through the W3C validator
 
-*   CSS
-    *   No errors were found in passing my css code after passing it through the W3C validator
+* CSS
+  * No errors were found in passing my css code after passing it through the W3C validator
 
-*   Accessibility
-    *   I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
-    *   I ran the code through lighthouse in devtools
+* Accessibility
+  * I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
+  * I ran the code through lighthouse in devtools
   
 ![devtools lighthouse rating](assets/images/accessibility.png)
 
@@ -90,21 +90,20 @@ No unfixed bugs found
 
 ## Deployment
 
-*   The site was deployed to GitHub pages by:
-  
-    *   Going to the GitHub repository and accessing 'Settings'
-    *   Selecting the 'Master Branch' in the source section dropdown
+* The site was deployed to GitHub pages by:
+  * Going to the GitHub repository and accessing 'Settings'
+  * Selecting the 'Master Branch' in the source section dropdown
 
 ## Credits
 
 ### Content
 
-*   The code to make the social media links was taken from the CI Love Running Project - https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.1-setting-up-the-basic-html-structure
+* The code to make the social media links was taken from the CI Love Running Project - <https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.1-setting-up-the-basic-html-structure>
 
-*   The information from the pages came from the biography 'Alexander Hamilton' by Ron Chernow
+* The information from the pages came from the biography 'Alexander Hamilton' by Ron Chernow
 
-*   Information on how to build the timeline came from <https://www.w3schools.com/howto/howto_css_timeline.asp>
+* Information on how to build the timeline came from <https://www.w3schools.com/howto/howto_css_timeline.asp>
 
 ### Media
 
-*   All images were taken from Pexels - https://www.pexels.com/
+* All images were taken from Pexels - <https://www.pexels.com/>
